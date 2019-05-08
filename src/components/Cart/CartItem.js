@@ -12,11 +12,11 @@ export default function CartItem({ item, value }) {
       </div>
 
       <div className="col-10 mx-auto col-lg-2">
-        <span className="d-lg-none">product : {title}</span>
+        <span className="">product : {title}</span>
       </div>
 
       <div className="col-10 mx-auto col-lg-2">
-        <span className="d-lg-none">price : {price}</span>
+        <span className="">price : {price}</span>
       </div>
       {/* start  button inc ,dec button column */}
       <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0">
